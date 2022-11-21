@@ -1,7 +1,7 @@
 <template>
   <div class="base-input">
-    <input value="" placeholder="E-mail" />
-    <label>E-mail</label>
+    <input value="" placeholder="Email" />
+    <label>Email</label>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
   position: relative;
   display: inline-block;
   > input {
-    border: 1px solid #c1c1c1;
+    border: 1px solid #afafaf;
     border-radius: 7px;
     background-color: transparent;
     outline: none;
@@ -29,7 +29,7 @@
         font-size: 14px;
         font-weight: 400;
       }
-    } 
+    }
     &::placeholder {
       opacity: 0;
       transition: inherit;
@@ -40,12 +40,13 @@
     }
   }
   > label {
-    color: #cfd1d5;
+    color: #afafaf;
     position: absolute;
     left: 10px;
-    top: 12px;
+    top: 10px;
     transition: 0.25s;
     background-color: #ffffff;
+    font-size: 16px;
     font-weight: 300;
     padding: 0 3px;
     z-index: 0;
