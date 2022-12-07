@@ -1,10 +1,10 @@
 <script setup>
-import BaseInput2 from '../components/inputs/BaseInput2.vue';
+import PasswordInput from '../components/inputs/PasswordInput.vue';
 </script>
 
 <template>
   <main>
-    <BaseInput2 />
+    <PasswordInput />
   </main>
 </template>
 
